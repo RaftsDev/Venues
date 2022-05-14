@@ -1,0 +1,144 @@
+.App {
+  /* text-align: center; */
+  /* border: solid 1px black; */
+  background-color: #00edff;
+  background-image: linear-gradient(#ffffff,#00edff);
+}
+
+.App-title-box{
+  height: 10vh;
+  width:100%;
+  text-align: center;
+  margin: 1% auto;
+  line-height: 10vh;
+  font-size: 2.5em;
+  font-family: "Petit Formal Script", cursive;
+}
+
+.App-search-location-box{
+  width:100%;
+
+}
+
+.App-venues-box{
+  width: 43%;
+  display: inline-block;
+  /* border: solid 1px green; */
+  vertical-align: top;
+  margin: 0 1% 0 5%;
+}
+
+.App-map-box{
+  width: 43%;
+  display: inline-block;
+  border: solid 1px green;
+  vertical-align: top;
+  margin: 0 0 0 1%;
+}
+
+
+
+.SearchLocation{
+  /* border: solid 1px blue; */
+  width: 85%;
+  display: inline-block;
+  margin: 0  auto 1% auto;
+  text-align: center;
+  height: 9vh;
+  line-height: 9vh;
+  font-size: 1.5em;
+  position: relative;
+  left:7%;
+  background-color: #00edff;
+  background-image: linear-gradient(#ffffff,#00edff);
+}
+
+
+#searchInput{
+  font-size: 0.7em;
+}
+
+.List{
+  /* border: solid 1px red; */
+}
+
+.Map{
+  /* border: solid 1px red; */
+}
+
+#map{
+  /* border: solid 1px blue; */
+  width: 100%;
+  height: 70vh;
+}
+
+.VenuesSearch{
+  /* border: solid 1px blue; */
+}
+
+.Venues{
+  /* border: solid 1px blue; */
+  overflow: auto;
+  height: 70vh;
+}
+
+.Venues-card{
+  background-color: #fafafa;
+  /* margin: 1% 1%; */
+  border-top: solid 1px #d1d1d1;
+  padding: 3%;
+}
+/*for focused venue card*/
+#focused {
+  background-color: #f5f5f5;
+}
+
+.Venues-card-head{
+  padding: 2% 2% 0% 2%;
+}
+
+.Venues-card-head-name{
+  float:left;
+}
+
+.Venues-card-head-rate{
+  float:right;
+  border-radius: 3px;
+  background-color: #00aa00;
+  padding: 1%;
+}
+
+.Venues-card-head::after{
+  content: '';
+  clear:both;
+  display: table;
+}
+
+.Venues-card-details{
+  vertical-align: top;
+  text-align: left;
+}
+
+.Venues-card-details > span{
+  display: inline-block;
+  margin: 1% 0% 1% 1%;
+  vertical-align: top;
+  font-size: 0.9em;
+}
+
+/* .Venues-card-details-time{
+  width: 27%;
+}*/
+
+.Venues-card-details-time > span{
+  margin: 1% auto;
+}
+
+.Venues-card-details-address{
+  float: right;
+}
+
+.Venues-card-details-address::after{
+  content: '';
+  clear: right;
+}
